@@ -1,6 +1,6 @@
 services:
   web:
-    build: nginx-page:latest
+    image: ghcr.io/buave/docker-nginx-basic-page:latest
     ports:
       - "8080:80"
     environment:
