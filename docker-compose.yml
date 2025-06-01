@@ -1,0 +1,9 @@
+services:
+  web:
+    build: nginx-page:latest
+    ports:
+      - "8080:80"
+    environment:
+      - TITLE=Exemple title
+      - CONTENT=Exemple content
+      - AUTHOR=bauve

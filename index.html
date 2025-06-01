@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>${TITLE}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+	    font-size: 20px;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+	    font-size: 28px;
+        }
+
+        p {
+            color: #666;
+	    font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+	    <h1>${TITLE}</h1>
+	    <p>${CONTENT}</p>
+	    <p>${AUTHOR}</p>
+    </div>
+</body>
+</html>
+
