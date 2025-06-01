@@ -1,9 +1,5 @@
 # Docker NGINX Basic Page
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/buave/docker-nginx-basic-page/docker-publish.yml?branch=main)
-![Docker Pulls](https://img.shields.io/docker/pulls/ghcr.io/buave/docker-nginx-basic-page?label=GHCR%20pulls)
-![License](https://img.shields.io/github/license/buave/docker-nginx-basic-page)
-
 This repository provides a minimal Docker image that serves a static HTML page using NGINX. The content of the page can be customized using environment variables at runtime.
 
 ## Image
